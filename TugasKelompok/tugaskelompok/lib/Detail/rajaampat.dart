@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:tugaskelompok/Detail/datepicker.dart';
 
 class detailRajaAmpat extends StatefulWidget {
   const detailRajaAmpat({Key? key}) : super(key: key);
@@ -212,12 +211,7 @@ class _detailRajaAmpatState extends State<detailRajaAmpat> {
                             shape: StadiumBorder(),
                             shadowColor: Colors.black,
                           ),
-                          onPressed: () {
-                            Navigator.push(context,
-                                MaterialPageRoute(builder: (context) {
-                              return calendar();
-                            }));
-                          },
+                          onPressed: () {},
                           child: Text(
                             "Selanjutnya",
                             style: TextStyle(
